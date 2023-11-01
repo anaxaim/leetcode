@@ -4,7 +4,7 @@ INSERT INTO Person (id, email) VALUES ('1', 'john@example.com');
 INSERT INTO Person (id, email) VALUES ('2', 'bob@example.com');
 INSERT INTO Person (id, email) VALUES ('3', 'john@example.com');
 
--- 183. Customers Who Never Order
+-- 196. Delete Duplicate Emails
 
 DELETE FROM Person p1
 USING Person p2
