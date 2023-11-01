@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func isValid(s string) bool {
-	parMap := map[string]string{
+	pairs := map[string]string{
 		")": "(",
 		"]": "[",
 		"}": "{",
@@ -22,7 +22,7 @@ func isValid(s string) bool {
 				return false
 			}
 
-			if par, ok := parMap[string(v)]; ok && par != stack[len(stack)-1] {
+			if pair, ok := pairs[string(v)]; ok && pair != stack[len(stack)-1] {
 				return false
 			}
 			stack = stack[:len(stack)-1]
