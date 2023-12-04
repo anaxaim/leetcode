@@ -11,7 +11,6 @@ FROM Person
 GROUP BY email
 HAVING COUNT(Email) > 1
 
-
 -- Input
 -- Person =
 -- | id | email   |

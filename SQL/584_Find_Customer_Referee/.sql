@@ -13,7 +13,6 @@ SELECT name
 FROM Customer
 WHERE referee_id != 2 OR referee_id IS NULL
 
-
 -- Input
 -- Customer =
 -- | id | name | referee_id |

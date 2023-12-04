@@ -17,12 +17,10 @@ FROM (
          FROM MyNumbers
          GROUP BY num
          HAVING COUNT(num) = 1
-     )
-
+     ) AS num_add
 
 -- Input
 -- MyNumbers =
--- Open Raw
 -- | num |
 -- | --- |
 -- | 8   |

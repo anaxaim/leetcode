@@ -14,7 +14,6 @@ CASE sex
     ELSE 'm'
 END;
 
-
 -- Input
 -- Salary =
 -- | id | name | sex | salary |

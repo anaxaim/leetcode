@@ -13,7 +13,6 @@ SELECT Person.firstName, Person.lastName, Address.city, Address.state
 FROM Person
 LEFT JOIN Address ON Person.personId = Address.personId
 
-
 -- Input
 -- Person =
 -- | personId | lastName | firstName |
@@ -32,4 +31,3 @@ LEFT JOIN Address ON Person.personId = Address.personId
 -- | --------- | -------- | ------------- | -------- |
 -- | Allen     | Wang     | null          | null     |
 -- | Bob       | Alice    | New York City | New York |
-

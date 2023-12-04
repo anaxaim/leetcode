@@ -15,7 +15,6 @@ SELECT p.product_name, s.year, s.price
 FROM Product p
          JOIN Sales s ON p.product_id = s.product_id
 
-
 -- Input
 -- Sales =
 -- | sale_id | product_id | year | quantity | price |

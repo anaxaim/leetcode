@@ -13,7 +13,6 @@ GROUP BY customer_number
 ORDER BY COUNT(customer_number) DESC
 LIMIT 1
 
-
 -- Input
 -- orders =
 -- | order_number | customer_number |
